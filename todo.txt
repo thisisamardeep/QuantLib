@@ -1,2 +1,7 @@
 Need to understand the flow of
 https://www.quantlib.org/reference/_bonds_8cpp-example.html
+
+First trace the full code which gets executed.
+Then trace first 5 files files which get used
+Then trace the include grpah
+Build a working sample with same structure in a different local repo
