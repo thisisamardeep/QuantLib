@@ -1,0 +1,205 @@
+. /home/amardeep/Desktop/contribute/QuantLib/cmake-build-debug/ql/qldefines.hpp
+.. /home/amardeep/Desktop/contribute/QuantLib/cmake-build-debug/ql/config.hpp
+.. /home/amardeep/Desktop/contribute/QuantLib/ql/mathconstants.hpp
+. /home/amardeep/Desktop/contribute/QuantLib/ql/instruments/vanillaswap.hpp
+.. /home/amardeep/Desktop/contribute/QuantLib/ql/instruments/fixedvsfloatingswap.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/instruments/swap.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/instrument.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/patterns/lazyobject.hpp
+...... /home/amardeep/Desktop/contribute/QuantLib/ql/patterns/observable.hpp
+....... /home/amardeep/Desktop/contribute/QuantLib/ql/errors.hpp
+........ /home/amardeep/Desktop/contribute/QuantLib/ql/shared_ptr.hpp
+....... /home/amardeep/Desktop/contribute/QuantLib/ql/patterns/singleton.hpp
+........ /home/amardeep/Desktop/contribute/QuantLib/ql/types.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/pricingengine.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/utilities/null.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/time/date.hpp
+...... /home/amardeep/Desktop/contribute/QuantLib/ql/time/period.hpp
+....... /home/amardeep/Desktop/contribute/QuantLib/ql/time/frequency.hpp
+....... /home/amardeep/Desktop/contribute/QuantLib/ql/time/timeunit.hpp
+...... /home/amardeep/Desktop/contribute/QuantLib/ql/time/weekday.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/any.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/cashflow.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/event.hpp
+...... /home/amardeep/Desktop/contribute/QuantLib/ql/optional.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/math/comparison.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/time/daycounter.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/time/schedule.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/time/calendars/nullcalendar.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/time/calendar.hpp
+...... /home/amardeep/Desktop/contribute/QuantLib/ql/time/businessdayconvention.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/time/dategenerationrule.hpp
+. /home/amardeep/Desktop/contribute/QuantLib/ql/instruments/makevanillaswap.hpp
+.. /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yieldtermstructure.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/termstructure.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/settings.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/utilities/observablevalue.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/handle.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolations/extrapolation.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/interestrate.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/compounding.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/time/daycounters/actual365fixed.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/quote.hpp
+. /home/amardeep/Desktop/contribute/QuantLib/ql/pricingengines/swap/discountingswapengine.hpp
+. /home/amardeep/Desktop/contribute/QuantLib/ql/pricingengines/swap/cvaswapengine.hpp
+.. /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/defaulttermstructure.hpp
+. /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/piecewiseyieldcurve.hpp
+.. /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/iterativebootstrap.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/bootstraphelper.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/patterns/visitor.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/quotes/simplequote.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/bootstraperror.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolations/linearinterpolation.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolation.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/math/solvers1d/finitedifferencenewtonsafe.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/math/solver1d.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/patterns/curiouslyrecurring.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/math/solvers1d/brent.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/utilities/dataformatters.hpp
+.. /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/localbootstrap.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/costfunction.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/math/array.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/math/matrix.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/utilities/steppingiterator.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/constraint.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/armijo.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/linesearch.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/endcriteria.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/levenbergmarquardt.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/problem.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/method.hpp
+.. /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/bootstraptraits.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/discountcurve.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/interpolatedcurve.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolations/loginterpolation.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolations/cubicinterpolation.hpp
+...... /home/amardeep/Desktop/contribute/QuantLib/ql/methods/finitedifferences/tridiagonaloperator.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolations/mixedinterpolation.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/zerocurve.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/zeroyieldstructure.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/interpolatedsimplezerocurve.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/forwardcurve.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/forwardstructure.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolations/backwardflatinterpolation.hpp
+. /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/ratehelpers.hpp
+.. /home/amardeep/Desktop/contribute/QuantLib/ql/instruments/bmaswap.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/indexes/iborindex.hpp
+.... /home/amardeep/Desktop/contribute/QuantLib/ql/indexes/interestrateindex.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/index.hpp
+...... /home/amardeep/Desktop/contribute/QuantLib/ql/indexes/indexmanager.hpp
+....... /home/amardeep/Desktop/contribute/QuantLib/ql/timeseries.hpp
+........ /home/amardeep/Desktop/contribute/QuantLib/ql/functional.hpp
+..... /home/amardeep/Desktop/contribute/QuantLib/ql/currency.hpp
+...... /home/amardeep/Desktop/contribute/QuantLib/ql/math/rounding.hpp
+... /home/amardeep/Desktop/contribute/QuantLib/ql/indexes/bmaindex.hpp
+.. /home/amardeep/Desktop/contribute/QuantLib/ql/instruments/futures.hpp
+. /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/credit/interpolatedhazardratecurve.hpp
+.. /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/credit/hazardratestructure.hpp
+. /home/amardeep/Desktop/contribute/QuantLib/ql/indexes/ibor/euribor.hpp
+. /home/amardeep/Desktop/contribute/QuantLib/ql/time/calendars/target.hpp
+. /home/amardeep/Desktop/contribute/QuantLib/ql/time/daycounters/actualactual.hpp
+. /home/amardeep/Desktop/contribute/QuantLib/ql/time/daycounters/actual360.hpp
+CVAIRS.o: \
+ /home/amardeep/Desktop/contribute/QuantLib/Examples/CVAIRS/CVAIRS.cpp \
+ /home/amardeep/Desktop/contribute/QuantLib/cmake-build-debug/ql/qldefines.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/cmake-build-debug/ql/config.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/mathconstants.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/instruments/vanillaswap.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/instruments/fixedvsfloatingswap.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/instruments/swap.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/instrument.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/patterns/lazyobject.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/patterns/observable.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/errors.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/shared_ptr.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/patterns/singleton.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/types.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/pricingengine.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/utilities/null.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/date.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/period.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/frequency.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/timeunit.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/weekday.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/any.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/cashflow.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/event.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/optional.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/comparison.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/daycounter.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/schedule.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/calendars/nullcalendar.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/calendar.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/businessdayconvention.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/dategenerationrule.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/instruments/makevanillaswap.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yieldtermstructure.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructure.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/settings.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/utilities/observablevalue.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/handle.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolations/extrapolation.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/interestrate.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/compounding.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/daycounters/actual365fixed.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/quote.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/pricingengines/swap/discountingswapengine.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/pricingengines/swap/cvaswapengine.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/defaulttermstructure.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/piecewiseyieldcurve.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/iterativebootstrap.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/bootstraphelper.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/patterns/visitor.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/quotes/simplequote.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/bootstraperror.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolations/linearinterpolation.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolation.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/solvers1d/finitedifferencenewtonsafe.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/solver1d.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/patterns/curiouslyrecurring.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/solvers1d/brent.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/utilities/dataformatters.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/localbootstrap.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/costfunction.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/array.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/matrix.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/utilities/steppingiterator.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/constraint.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/armijo.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/linesearch.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/endcriteria.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/levenbergmarquardt.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/problem.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/optimization/method.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/bootstraptraits.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/discountcurve.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/interpolatedcurve.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolations/loginterpolation.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolations/cubicinterpolation.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/methods/finitedifferences/tridiagonaloperator.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolations/mixedinterpolation.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/zerocurve.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/zeroyieldstructure.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/interpolatedsimplezerocurve.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/forwardcurve.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/forwardstructure.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/interpolations/backwardflatinterpolation.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/yield/ratehelpers.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/instruments/bmaswap.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/indexes/iborindex.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/indexes/interestrateindex.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/index.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/indexes/indexmanager.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/timeseries.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/functional.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/currency.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/math/rounding.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/indexes/bmaindex.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/instruments/futures.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/credit/interpolatedhazardratecurve.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/termstructures/credit/hazardratestructure.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/indexes/ibor/euribor.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/calendars/target.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/daycounters/actualactual.hpp \
+ /home/amardeep/Desktop/contribute/QuantLib/ql/time/daycounters/actual360.hpp
+Multiple include guards may be useful for:
