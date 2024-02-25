@@ -17,4 +17,4 @@ what is couterparty risk
 Poisson process
 time-inhomogeneous
 what is swaption
-what is netting agreement
+what is netting agreement  know
