@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.15.0)
 
 # For MSVC RUNTIME LIBRARY, need CMP0091=NEW and cmake 3.15+
 cmake_policy(SET CMP0091 NEW)
+set(CMAKE_CXX_STANDARD 17)
 
 # Version info
 set(QUANTLIB_VERSION_MAJOR 1)
@@ -39,7 +40,7 @@ set(QL_INSTALL_CMAKEDIR "lib/cmake/${PACKAGE_NAME}" CACHE STRING
     "Installation directory for CMake scripts")
 
 # Options
-option(QL_BUILD_BENCHMARK "Build benchmark" ON)
+option(QL_BUILD_BENCHMARK "Build benchmark" OFF)
 option(QL_BUILD_EXAMPLES "Build examples" ON)
 option(QL_BUILD_TEST_SUITE "Build test suite" ON)
 option(QL_BUILD_FUZZ_TEST_SUITE "Build fuzz test suite" OFF) 
@@ -63,11 +64,11 @@ option(QL_INSTALL_TEST_SUITE "Install test suite" ON)
 option(QL_TAGGED_LAYOUT "Library names use layout tags" ${MSVC})
 option(QL_USE_CLANG_TIDY "Use clang-tidy when building" OFF)
 option(QL_USE_INDEXED_COUPON "Use indexed coupons instead of par coupons" OFF)
-option(QL_USE_STD_ANY "Use std::any instead of boost::any" OFF)
-option(QL_USE_STD_CLASSES "Enable all QL_USE_STD_ options" OFF)
+option(QL_USE_STD_ANY "Use std::any instead of boost::any" ON)
+option(QL_USE_STD_CLASSES "Enable all QL_USE_STD_ options" ON)
 option(QL_USE_STD_FUNCTION "Use std::function and std::bind instead of Boost ones" ON)
-option(QL_USE_STD_OPTIONAL "Use std::optional instead of boost::optional" OFF)
-option(QL_USE_STD_SHARED_PTR "Use standard smart pointers instead of Boost ones" OFF)
+option(QL_USE_STD_OPTIONAL "Use std::optional instead of boost::optional" ON)
+option(QL_USE_STD_SHARED_PTR "Use standard smart pointers instead of Boost ones" ON)
 option(QL_USE_STD_TUPLE "Use std::tuple instead of boost::tuple" ON)
 set(QL_EXTERNAL_SUBDIRECTORIES "" CACHE STRING "Optional list of external source directories to be added to the build (semicolon-separated)")
 set(QL_EXTRA_LINK_LIBRARIES "" CACHE STRING "Optional extra link libraries to add to QuantLib")
