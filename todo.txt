@@ -18,3 +18,6 @@ Poisson process
 time-inhomogeneous
 what is swaption
 what is netting agreement  know
+
+
+/usr/bin/g++   -MM -H  -I/home/amardeep/Desktop/contribute/QuantLib/cmake-build-debug -I/home/amardeep/Desktop/contribute/QuantLib  -std=c++17   /home/amardeep/Desktop/contribute/QuantLib/Examples/CVAIRS/CVAIRS.cpp
