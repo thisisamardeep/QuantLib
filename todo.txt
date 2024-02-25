@@ -5,3 +5,16 @@ First trace the full code which gets executed.
 Then trace first 5 files files which get used
 Then trace the include grpah
 Build a working sample with same structure in a different local repo
+
+
+
+
+
+================================
+
+
+what is couterparty risk
+Poisson process
+time-inhomogeneous
+what is swaption
+what is netting agreement
