@@ -1,5 +1,8 @@
 add_executable(CVAIRS CVAIRS.cpp)
 target_link_libraries(CVAIRS ql_library ${QL_THREAD_LIBRARIES})
+SET(CMAKE_CXX_FLAGS "-save-temps -finstrument-functions -O0 -g3 -fno-elide-constructors")
+set(CMAKE_VERBOSE_MAKEFILE ON)
+SET(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 if (QL_INSTALL_EXAMPLES)
     install(TARGETS CVAIRS RUNTIME DESTINATION ${QL_INSTALL_EXAMPLESDIR})
 endif()
