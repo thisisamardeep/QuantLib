@@ -296,3 +296,35 @@ set(CPACK_SOURCE_IGNORE_FILES
     "/\\\\.lgt"
     "/\\\\.mis")
 include(CPack)
+
+
+function(getAllSubdirs dir dirs)
+    # get subdirectories for dir
+    get_property(subdirs DIRECTORY ${dir} PROPERTY SUBDIRECTORIES)
+    # iterate any found subdirectories
+    foreach(subdir ${subdirs})
+        # append each sub directory
+        list(APPEND ${dirs} "\n" ${subdir})
+        getAllSubdirs(${subdir} ${dirs})
+    endforeach()
+    set(${dirs} ${${dirs}} PARENT_SCOPE)
+endfunction()
+
+set(Project_Directories ${CMAKE_SOURCE_DIR})
+getAllSubDirs(. Project_Directories)
+message("all dirs " ${Project_Directories})
+
+function(print_all_targets DIR)
+    get_property(TGTS DIRECTORY "${DIR}" PROPERTY BUILDSYSTEM_TARGETS)
+    foreach(TGT IN LISTS TGTS)
+        message(STATUS "Target: ${TGT}")
+        # TODO: Do something about it
+    endforeach()
+
+    get_property(SUBDIRS DIRECTORY "${DIR}" PROPERTY SUBDIRECTORIES)
+    foreach(SUBDIR IN LISTS SUBDIRS)
+        print_all_targets("${SUBDIR}")
+    endforeach()
+endfunction()
+
+print_all_targets(.)
